@@ -1,0 +1,18 @@
+{
+  "schemaVersion": 1,
+  "id": "suschunks",
+  "version": "${version}",
+  "name": "Sus Chunks",
+  "description": "Markiert auffaellige Chunks (viele Spieler-Bloecke) rot. Rein clientseitig.",
+  "environment": "client",
+  "entrypoints": {
+    "client": ["dev.local.suschunks.SusChunksClient"]
+  },
+  "mixins": ["suschunks.mixins.json"],
+  "depends": {
+    "fabricloader": ">=0.19.1",
+    "minecraft": ">=26.2",
+    "java": ">=25",
+    "fabric-api": "*"
+  }
+}
