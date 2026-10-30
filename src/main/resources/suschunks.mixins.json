@@ -1,0 +1,7 @@
+{
+  "required": true,
+  "package": "dev.local.suschunks.mixin",
+  "compatibilityLevel": "JAVA_25",
+  "client": ["GameRendererMixin"],
+  "injectors": { "defaultRequire": 1 }
+}
