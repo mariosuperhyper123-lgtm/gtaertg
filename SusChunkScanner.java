@@ -7,7 +7,7 @@ import net.minecraft.client.Minecraft;
 import net.minecraft.client.multiplayer.ClientLevel;
 import net.minecraft.world.level.block.entity.AbstractFurnaceBlockEntity;
 import net.minecraft.world.level.block.entity.BarrelBlockEntity;
-import net.minecraft.world.level.block.entity.BedBlockEntity;
+
 import net.minecraft.world.level.block.entity.BlockEntity;
 import net.minecraft.world.level.block.entity.BrewingStandBlockEntity;
 import net.minecraft.world.level.block.entity.ChestBlockEntity;
@@ -79,7 +79,7 @@ public final class SusChunkScanner {
 				|| be instanceof HopperBlockEntity
 				|| be instanceof DispenserBlockEntity
 				|| be instanceof BrewingStandBlockEntity
-				|| be instanceof BedBlockEntity
+				
 				|| be instanceof SignBlockEntity) {
 			return 1;
 		}
